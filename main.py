@@ -52,7 +52,8 @@ if 5 < percent_change < -5:
         print(f"news titles: {news_resource.json()["articles"][_]["title"]}\n"
               f"link: {news_resource.json()["articles"][_]["url"]}\n")
 else:
-    print(f"the stock change from the previous closing day has a change of: {percent_change:.2f}%, no significant change in stock prices")
+    print(f"the stock change from the previous closing day has a change of: {percent_change:.2f}%,"
+          f" no significant change in stock prices")
 
 
 
